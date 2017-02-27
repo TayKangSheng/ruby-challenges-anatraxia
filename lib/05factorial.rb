@@ -9,3 +9,14 @@
 #
 # > 120
 #
+def factorial num
+  i = 1
+  result = 1
+  while i <=  num do
+    result = result * i
+    i += 1
+  end
+  return result
+end
+
+p factorial 5
